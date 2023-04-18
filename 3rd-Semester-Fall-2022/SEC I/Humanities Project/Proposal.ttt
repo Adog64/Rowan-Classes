@@ -1,0 +1,37 @@
+\begin{table*}[hbt]
+\ifnextchar[{\eatarg}{}
+[b]
+\afterpage{\clearpage}
+\caption{Miles Driven Per Week by Demographic}
+\begin{tabular}{|l|l|}
+\hline
+\textbf{Demographic} & \textbf{Miles Per Week} \\ \hline
+On-Campus All        & 7.7                     \\ \hline
+On-Campus Drivers    & 29.3                    \\ \hline
+Commuters            & 150.4                   \\ \hline
+All  & 101.7    \\ \hline
+\end{tabular}
+\label{tbl:MilesPerWeek}
+\end{table*}
+\efloatseparator
+ 
+\begin{table*}[hbt]
+\ifnextchar[{\eatarg}{}
+[h!]
+\caption{Parking Lot Surface Areas}
+\begin{tabular}{|l|l|}
+\hline
+\textbf{Lot} & \textbf{Surface area (m\textsuperscript{2})} \\ \hline
+C            & 7,900                 \\ \hline
+D            & 7,000                 \\ \hline
+D-1          & 4,800                 \\ \hline
+O            & 8,000                 \\ \hline
+O-1          & 8,100                 \\ \hline
+B and B-1    & 15,600                \\ \hline
+J            & 6,200                 \\ \hline
+P and R      & 6,600                 \\ \hline
+Edgewood     & 7,900                 \\ \hline
+\textbf{Total} & 72,100 \\ \hline
+\end{tabular}
+\label{tbl:LotAreas}
+\end{table*}

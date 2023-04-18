@@ -1,0 +1,19 @@
+astable multivibrator netlist
+.title Inverting OpAmp amplifier
+*file OpAmp.cir
+.include Lm358.mod
+XU1 4 3 1 2 6 Lm358/NS
+R1 Lm358 4 30k
+R2 4 5 100k
+C1 3 5 10u
+R3 3 Lm358 20k
+Vp 1 0 5
+Vn 2 0 -5
+Vgnd 5 0 0
+
+.control
+tran 10u 600m 590m
+plot v(Lm358)
+.endc
+.end
+

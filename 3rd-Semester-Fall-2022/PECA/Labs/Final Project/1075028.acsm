@@ -1,0 +1,38 @@
+<fulfillmentToken fulfillmentType="loan" auth="user" xmlns="http://ns.adobe.com/adept">
+  <distributor>urn:uuid:9cb786e8-586a-4950-8901-fff8d2ee6025</distributor>
+  <operatorURL>https://acs.ebookcentral.proquest.com/fulfillment</operatorURL>
+  <transaction>1075028_376947427</transaction>
+  <purchase>2023-01-05T19:56:32+00:00</purchase>
+  <expiration>2023-01-06T01:56:32+00:00</expiration>
+  <resourceItemInfo>
+    <resource>urn:uuid:00000000-0000-0000-0000-000001075028</resource>
+    <resourceItem>0</resourceItem>
+    <metadata>
+      <dc:title xmlns:dc="http://purl.org/dc/elements/1.1/">Grid-Connected Solar Electric Systems</dc:title>
+      <dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Stapleton, Geoff;Neill, Susan;Global Sustainable Energy Solutions Pty Ltd,;Neill, Susan;</dc:creator>
+      <dc:publisher xmlns:dc="http://purl.org/dc/elements/1.1/">Taylor &amp; Francis Group</dc:publisher>
+      <dc:identifier xmlns:dc="http://purl.org/dc/elements/1.1/">1075028</dc:identifier>
+      <dc:format xmlns:dc="http://purl.org/dc/elements/1.1/">application/pdf</dc:format>
+    </metadata>
+    <licenseToken>
+      <resource>urn:uuid:00000000-0000-0000-0000-000001075028</resource>
+      <permissions>
+        <display>
+          <duration>31535999</duration>
+        </display>
+        <excerpt>
+          <duration>31535999</duration>
+          <count initial="37" max="37" incrementInterval="852324"/>
+        </excerpt>
+        <print>
+          <duration>31535999</duration>
+          <count initial="61" max="61" incrementInterval="516983"/>
+        </print>
+        <play>
+          <duration>31535999</duration>
+        </play>
+      </permissions>
+    </licenseToken>
+  </resourceItemInfo>
+  <hmac>ihDdpCs6LfDR+laQFcyqc2tMg3Y=</hmac>
+</fulfillmentToken>

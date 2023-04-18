@@ -1,0 +1,8 @@
+21938   Electronics I
+21941   Intro to Embedded Systems
+
+22154   Intro to Computer Networks & Data Communication
+21022   Honors SEC II
+
+
+

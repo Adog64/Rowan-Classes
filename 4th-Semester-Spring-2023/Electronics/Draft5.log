@@ -1,0 +1,13 @@
+Circuit: * C:\users\sharpe\Documents\Templates\Rowan\2023-Spring\Electronics\Draft5.asc
+
+Warning: Multiple definitions of model "2scr375p" Type: BJT
+Warning: Multiple definitions of model "bc857b" Type: BJT
+Warning: Multiple definitions of model "bc847c" Type: BJT
+Warning: Multiple definitions of model "bc847b" Type: BJT
+Error on line 5 : v1 vcc 0 dc2
+	 Unknown parameter "dc2"
+Error on line 6 : v2 vb 0 dc1
+	 Unknown parameter "dc1"
+v1: Missing value, assumed 0V @ DC
+v2: Missing value, assumed 0V @ DC
+Fatal Error: DC sweep: Source "dc1" not found

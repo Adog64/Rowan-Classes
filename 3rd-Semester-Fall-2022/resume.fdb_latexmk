@@ -1,0 +1,11 @@
+# Fdb version 3
+["pdflatex"] 1667959378 "/home/sharpe/Documents/Rowan/2022 Fall/resume.tex" "resume.pdf" "resume" 1667959378
+  "/home/sharpe/Documents/Rowan/2022 Fall/resume.tex" 1667959324 10143 91d3561cdf8bbad7004f52c7373fc336 ""
+  "/usr/share/texlive/texmf-dist/web2c/texmf.cnf" 1642711416 40136 b05acc85e8425979e52682d98a2bcacf ""
+  "/usr/share/texlive/texmf-var/web2c/pdftex/pdflatex.fmt" 1667957561 1345253 46890ead2142199524a42ed03c8fcb9d ""
+  "hitec.cls" 0 -1 0 ""
+  "resume.aux" 1667959378 32 3985256e7290058c681f74d7a3565a19 ""
+  "resume.tex" 1667959324 10143 91d3561cdf8bbad7004f52c7373fc336 ""
+  (generated)
+  "resume.log"
+  "resume.pdf"

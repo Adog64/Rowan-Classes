@@ -1,0 +1,436 @@
+<?xml version="1.0" encoding="UTF-8"?><metadata>
+    <idinfo>
+        <citation>
+            <citeinfo>
+                <origin/>
+                <pubdate>20210531</pubdate>
+                <title>Public Solar Facilities of New Jersey, Edition 20210531 (Util_solar_public) (Web Mercator ArcGIS Online Service)</title>
+                <geoform>vector digital data</geoform>
+                <pubinfo>
+                    <pubplace/>
+                    <publish>NJDEP Bureau of Energy &amp; Sustainability</publish>
+                </pubinfo>
+                <onlink>https://www.nj.gov/dep/gis/digidownload/zips/OpenData/Util_solar_public.zip</onlink>
+            </citeinfo>
+        </citation>
+        <descript>
+            <abstract>The data contained in this layer identifies all public solar installations in the State, as reported by the NJBPU and their Energy Market Managers, AEG as of 20160826. Public facilities include: Government Facilities, Public Schools, Public Colleges/Universities, and other public school facilities.</abstract>
+            <purpose>The purpose of this dataset is to identify solar PV installations at public facilities in New Jersey.</purpose>
+        </descript>
+        <timeperd>
+            <timeinfo>
+                <sngdate>
+                    <caldate>20160826</caldate>
+                </sngdate>
+            </timeinfo>
+            <current>Data obtained from AEG &amp; NJBPU on 20160826</current>
+        </timeperd>
+        <status>
+            <progress>In work</progress>
+            <update>As needed</update>
+        </status>
+        <spdom>
+            <bounding>
+                <westbc>-75.542576</westbc>
+                <eastbc>-73.926621</eastbc>
+                <northbc>41.230956</northbc>
+                <southbc>38.926452</southbc>
+            </bounding>
+        </spdom>
+        <keywords>
+            <theme>
+                <themekt>ISO 19115 Topic Category</themekt>
+                <themekey>utilitiesCommunication</themekey>
+            </theme>
+            <theme>
+                <themekt>None</themekt>
+                <themekey>NJDEP</themekey>
+                <themekey>BPU</themekey>
+                <themekey>Public Solar Facilities</themekey>
+                <themekey>Util_solar_public</themekey>
+                <themekey>AEG</themekey>
+                <themekey>Solar</themekey>
+                <themekey>Facilities</themekey>
+            </theme>
+        </keywords>
+        <accconst>In most cases, a downloadable shapefile (.zip) version of this layer is also available. Information to download the shapefile can be found in the Distribution Section of this metadata record. This data layer is shown in the NJDEP's NJ-GeoWeb mapping application accessible through the Online Linkage: https://www.nj.gov/dep/gis/geowebsplash.htm</accconst>
+        <useconst>New Jersey Department of Environmental Protection (NJDEP) Data Distribution Agreement. The data provided herein are distributed subject to the following conditions and restrictions: NJDEP assumes no responsibility to maintain them in any manner or form and disclaims any duty or obligation to either maintain availability of or to update the data. Terms of Agreement 1. All data is provided, as is, without any representation or warranty of any kind, implied, expressed or statutory including, but not limited to, the warranties of non-infringement of third party rights, title, merchantability or fitness for a particular use, freedom from computer virus nor are any such warranties to be implied with respect to the digital data layers furnished hereunder. User is responsible for understanding the accuracy limitations of all digital data layers provided herein, as documented in the accompanying cross-reference files (see SUPPLEMENTAL INFORMATION). Any reproduction or manipulation of the above data must ensure that the coordinate reference system remains intact. 2. Digital data received from the NJDEP may not be reproduced or redistributed without all the metadata provided. 3. Any maps, publications, reports, or other documents produced as a result of this project that utilize this digital data will credit the NJDEP's Geographic Information System (GIS) as the source of the data with the following credit/disclaimer: 'This (map/publication/report) was developed using New Jersey Department of Environmental Protection Geographic Information System digital data, but this secondary product has not been verified by NJDEP and is not state-authorized or endorsed.' 4. NJDEP makes no warranty that digital data are free of Copyright or Trademark claims or other restrictions or limitations on free use or display. Making a copy of this data may be subject to the copyright of trademark laws.</useconst>
+        <ptcontac>
+            <cntinfo>
+                <cntorgp>
+                    <cntorg>NJDEP Bureau of Energy &amp; Sustainability</cntorg>
+                    <cntper>Ryan Gergely</cntper>
+                </cntorgp>
+                <cntaddr>
+                    <addrtype>mailing and physical</addrtype>
+                    <address>401 East State Street</address>
+                    <city>Trenton</city>
+                    <state>NJ</state>
+                    <postal>08625</postal>
+                </cntaddr>
+                <cntvoice>(609) 292-8848</cntvoice>
+                <cntemail>ryan.gergely@dep.nj.gov</cntemail>
+            </cntinfo>
+        </ptcontac>
+        <native>Version 6.2 (Build 9200) ; Esri ArcGIS 10.3.1.4959</native>
+    </idinfo>
+    <dataqual>
+        <logic>Normalized data for consistency.</logic>
+        <complete>Some entries in the source spreadsheet from AEG/BPU were not “public facilities” (businesses, churches. etc.) and were therefore omitted from this dataset.</complete>
+        <lineage>
+            <srcinfo>
+                <srccite>
+                    <citeinfo>
+                        <origin/>
+                        <pubdate>20160816</pubdate>
+                        <title>Public Solar Facilities</title>
+                        <geoform>spreadsheet</geoform>
+                        <pubinfo>
+                            <pubplace/>
+                            <publish>New Jersey Board of Public Utilities (NJBPU)</publish>
+                        </pubinfo>
+                        <onlink>https://www.bpu.state.nj.us</onlink>
+                    </citeinfo>
+                </srccite>
+                <srcscale>0</srcscale>
+                <typesrc>onLine</typesrc>
+                <srctime>
+                    <timeinfo>
+                        <sngdate>
+                            <caldate>20160816</caldate>
+                        </sngdate>
+                    </timeinfo>
+                    <srccurr>publication date</srccurr>
+                </srctime>
+                <srccitea>AFVFS</srccitea>
+                <srccontr>The U.S. Department of Energy’s Alternative Fuels Data Center (AFDC) provided all of the data found in this GIS dataset.</srccontr>
+            </srcinfo>
+            <procstep>
+                <procdesc>Data obtained from NJBPU &amp; AEG on 20160826 in spreadsheet fromat. Public locations were identified and categorized as either "Government Facility", "School Public K-12", "College/University", or "Other School Facility". Addresses were geocoded and then visually checked for accuracy in order to determine coordinate values to map. Company Names and other values were normalized for quality and consistency.</procdesc>
+                <procdate>20160826</procdate>
+                <proccont>
+                    <cntinfo>
+                        <cntorgp>
+                            <cntorg>NJDEP Bureau of Energy &amp; Sustainability</cntorg>
+                            <cntper>Ryan Gergely</cntper>
+                        </cntorgp>
+                        <cntaddr>
+                            <addrtype>mailing and physical</addrtype>
+                            <address>401 East State Street</address>
+                            <city>Trenton</city>
+                            <state>NJ</state>
+                            <postal>08625</postal>
+                        </cntaddr>
+                        <cntvoice>(609) 292-8848</cntvoice>
+                        <cntemail>ryan.gergely@dep.nj.gov</cntemail>
+                    </cntinfo>
+                </proccont>
+            </procstep>
+        </lineage>
+    </dataqual>
+    <spdoinfo>
+        <direct>Vector</direct>
+        <ptvctinf>
+            <sdtsterm>
+                <sdtstype>Entity point</sdtstype>
+                <ptvctcnt>1113</ptvctcnt>
+            </sdtsterm>
+        </ptvctinf>
+    </spdoinfo>
+    <eainfo>
+        <detailed>
+            <enttyp>
+                <enttypl>Util_solar_public</enttypl>
+                <enttypd>Public Solar Facilities</enttypd>
+                <enttypds>NJDEP/NJBPU/AEG</enttypds>
+            </enttyp>
+            <attr>
+                <attrlabl>OBJECTID</attrlabl>
+                <attrdef>Internal feature number.</attrdef>
+                <attrdefs>Esri</attrdefs>
+                <attrdomv>
+                                        					
+                    
+                    <udom>Sequential unique whole numbers that are automatically generated.</udom>
+                                        				
+                
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>Shape</attrlabl>
+                <attrdef>Feature geometry.</attrdef>
+                <attrdefs>Esri</attrdefs>
+                <attrdomv>
+                                        					
+                    
+                    <udom>Coordinates defining the features.</udom>
+                                        				
+                
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>AcctNumber</attrlabl>
+                <attrdef>Account Number from BPU Application</attrdef>
+                <attrdefs>NJBPU/AEG</attrdefs>
+                <attrdomv>
+                                        					
+                    
+                    <udom>Unique Account Number</udom>
+                                        				
+                
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>Status_Date</attrlabl>
+                <attrdef>Date from NJBPU/AEG</attrdef>
+                <attrdefs>NJBPU/AEG</attrdefs>
+                <attrdomv>
+                                        					
+                    
+                    <udom>Unique date from NJBPU/AEG</udom>
+                                        				
+                
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>CompanyName (Alias: Customer)</attrlabl>
+                <attrdef>Company name from solar application</attrdef>
+                <attrdefs>NJBPU/AEG</attrdefs>
+                <attrdomv>
+                                        					
+                    
+                    <udom>Unique company name</udom>
+                                        				
+                
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>System_Size</attrlabl>
+                <attrdef>System size from solar application</attrdef>
+                <attrdefs>NJBPU/AEG</attrdefs>
+                <attrdomv>
+                                        					
+                    
+                    <udom>Unique system size</udom>
+                                        				
+                
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>CustomerType</attrlabl>
+                <attrdef>Customer Type of public facilities from categories</attrdef>
+                <attrdefs>NJDEP</attrdefs>
+                <attrdomv>
+                                        					
+                    
+                    <edom>
+                                                						
+                        
+                        <edomv>College/University</edomv>
+                                                						
+                        
+                        <edomvd>College/Universities</edomvd>
+                                                						
+                        
+                        <edomvds>NJDEP</edomvds>
+                                                					
+                    
+                    </edom>
+                                        					
+                    
+                    <edom>
+                                                						
+                        
+                        <edomv>Government Facility</edomv>
+                                                						
+                        
+                        <edomvd>Government Facilities (Municipal/State, Fire/Police, etc.)</edomvd>
+                                                						
+                        
+                        <edomvds>NJDEP</edomvds>
+                                                					
+                    
+                    </edom>
+                                        					
+                    
+                    <edom>
+                                                						
+                        
+                        <edomv>Other School Facility</edomv>
+                                                						
+                        
+                        <edomvd>Other School Facilities (BoE Buildings, etc.)</edomvd>
+                                                						
+                        
+                        <edomvds>NJDEP</edomvds>
+                                                					
+                    
+                    </edom>
+                                        					
+                    
+                    <edom>
+                                                						
+                        
+                        <edomv>School Public K-12</edomv>
+                                                						
+                        
+                        <edomvd>Public Schools (Elementary, Middle, High Schools)</edomvd>
+                                                						
+                        
+                        <edomvds>NJDEP</edomvds>
+                                                					
+                    
+                    </edom>
+                                        				
+                
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>InstallationAddress</attrlabl>
+                <attrdef>Installation address from solar application</attrdef>
+                <attrdefs>NJBPU/AEG</attrdefs>
+                <attrdomv>
+                                        					
+                    
+                    <udom>Unique installation address</udom>
+                                        				
+                
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>InstallationCity</attrlabl>
+                <attrdef>Installation city from solar application</attrdef>
+                <attrdefs>NJBPU/AEG</attrdefs>
+                <attrdomv>
+                                        					
+                    
+                    <udom>Unique installation city</udom>
+                                        				
+                
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>InstallationZip</attrlabl>
+                <attrdef>Installation zip from solar application</attrdef>
+                <attrdefs>NJBPU/AEG</attrdefs>
+                <attrdomv>
+                                        					
+                    
+                    <udom>Unique installation zip code</udom>
+                                        				
+                
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>InstallerName</attrlabl>
+                <attrdef>Installer name from solar application</attrdef>
+                <attrdefs>NJBPU/AEG</attrdefs>
+                <attrdomv>
+                                        					
+                    
+                    <udom>Unique installer name</udom>
+                                        				
+                
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>Lat</attrlabl>
+                <attrdef>Latitude coordinates</attrdef>
+                <attrdefs>NJDEP</attrdefs>
+                <attrdomv>
+                                        					
+                    
+                    <udom>Geocoded coordinates</udom>
+                                        				
+                
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>Long</attrlabl>
+                <attrdef>Longitude coordinates</attrdef>
+                <attrdefs>NJDEP</attrdefs>
+                <attrdomv>
+                                        					
+                    
+                    <udom>Geocoded coordinates</udom>
+                                        				
+                
+                </attrdomv>
+            </attr>
+        </detailed>
+    </eainfo>
+    <distinfo>
+        <distrib>
+            <cntinfo>
+                <cntorgp>
+                    <cntorg>NJDEP/DOIT/BGIS</cntorg>
+                </cntorgp>
+                <cntaddr>
+                    <addrtype>mailing and physical</addrtype>
+                    <address>PO Box 420</address>
+                    <address>401 East State Street</address>
+                    <city>Trenton</city>
+                    <state>NJ</state>
+                    <postal>08625</postal>
+                </cntaddr>
+                <cntvoice>(609) 777-0672</cntvoice>
+                <cntfax>(609) 292-7900</cntfax>
+                <cntemail>gisnet@dep.nj.gov</cntemail>
+            </cntinfo>
+        </distrib>
+        <resdesc>Downloadable Data</resdesc>
+        <distliab>See "Use Constraints"</distliab>
+        <stdorder>
+            <digform>
+                <digtinfo>
+                    <formname>DEP distributes ESRI .SHP and/or GDB. Some data may be NJ GeoWeb "display only" layers.</formname>
+                    <formvern>9x/10x</formvern>
+                    <formspec>NJDEP NJ GeoWeb online mapping application</formspec>
+                    <filedec>zip</filedec>
+                </digtinfo>
+                <digtopt>
+                    <onlinopt>
+                        <computer>
+                            <networka>
+                                <networkr>https://www.nj.gov/dep/gis</networkr>
+                            </networka>
+                        </computer>
+                    </onlinopt>
+                    <onlinopt>
+                        <computer>
+                            <networka>
+                                <networkr>https://www.nj.gov/dep/gis/geowebsplash.htm</networkr>
+                            </networka>
+                        </computer>
+                    </onlinopt>
+                </digtopt>
+            </digform>
+            <fees>none</fees>
+            <ordering>none</ordering>
+        </stdorder>
+    </distinfo>
+    <metainfo>
+        <metd>20210531</metd>
+        <metc>
+            <cntinfo>
+                <cntorgp>
+                    <cntorg>NJDEP Bureau of Energy &amp; Sustainability</cntorg>
+                    <cntper>Ryan Gergely</cntper>
+                </cntorgp>
+                <cntpos>Research Scientist</cntpos>
+                <cntaddr>
+                    <addrtype>physical</addrtype>
+                    <address>401 E State St</address>
+                    <city>Trenton</city>
+                    <state>NJ</state>
+                    <postal>08625</postal>
+                </cntaddr>
+                <cntvoice>609-292-8848</cntvoice>
+                <cntemail>ryan.gergely@dep.nj.gov</cntemail>
+            </cntinfo>
+        </metc>
+        <metstdn>FGDC Content Standard for Digital Geospatial Metadata</metstdn>
+        <metstdv>FGDC-STD-001-1998</metstdv>
+        <mettc>local time</mettc>
+    </metainfo>
+</metadata>

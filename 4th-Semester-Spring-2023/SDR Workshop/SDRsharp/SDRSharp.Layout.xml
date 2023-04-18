@@ -1,0 +1,315 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RadDock MdiChildrenDockType="ToolWindow" Padding="0, 0, 0, 0" SplitterWidth="8" AutoHideAnimation="None" IsCleanUpTarget="True" Orientation="Vertical" EnableCollapsing="True" CausesValidation="False" TabIndex="39" TabStop="False">
+  <SerializableAutoHideContainer>
+    <LeftAutoHideGroups>
+      <Telerik.WinControls.UI.Docking.AutoHideGroup>
+        <Windows>
+          <Telerik.WinControls.UI.Docking.DockWindowPlaceholder AutoHideSize="250, 250" DockWindowName="Frequency Manager" DockWindowText="Frequency Manager *" PreviousDockState="Docked" Location="0, 0" Font="Segoe UI, 9pt" />
+        </Windows>
+      </Telerik.WinControls.UI.Docking.AutoHideGroup>
+    </LeftAutoHideGroups>
+    <RightAutoHideGroups>
+      <Telerik.WinControls.UI.Docking.AutoHideGroup>
+        <Windows>
+          <Telerik.WinControls.UI.Docking.DockWindowPlaceholder AutoHideSize="250, 699" DockWindowName="displayToolWindow" DockWindowText="Display" PreviousDockState="Docked" Location="0, 0" Font="Segoe UI, 9pt" />
+        </Windows>
+      </Telerik.WinControls.UI.Docking.AutoHideGroup>
+    </RightAutoHideGroups>
+    <BottomAutoHideGroups>
+      <Telerik.WinControls.UI.Docking.AutoHideGroup>
+        <Windows>
+          <Telerik.WinControls.UI.Docking.DockWindowPlaceholder AutoHideSize="200, 200" DockWindowName="Zoom MT" DockWindowText="FFT: Micro Tuner *" PreviousDockState="Docked" Location="0, 0" Font="Segoe UI, 9pt" />
+        </Windows>
+      </Telerik.WinControls.UI.Docking.AutoHideGroup>
+      <Telerik.WinControls.UI.Docking.AutoHideGroup>
+        <Windows>
+          <Telerik.WinControls.UI.Docking.DockWindowPlaceholder AutoHideSize="200, 200" DockWindowName="Zoom AF" DockWindowText="FFT: Audio Spectrum *" PreviousDockState="Docked" Location="0, 0" Font="Segoe UI, 9pt" />
+        </Windows>
+      </Telerik.WinControls.UI.Docking.AutoHideGroup>
+      <Telerik.WinControls.UI.Docking.AutoHideGroup>
+        <Windows>
+          <Telerik.WinControls.UI.Docking.DockWindowPlaceholder AutoHideSize="200, 200" DockWindowName="Zoom MPX" DockWindowText="FFT: FM MPX *" PreviousDockState="Docked" Location="0, 0" Font="Segoe UI, 9pt" />
+        </Windows>
+      </Telerik.WinControls.UI.Docking.AutoHideGroup>
+      <Telerik.WinControls.UI.Docking.AutoHideGroup>
+        <Windows>
+          <Telerik.WinControls.UI.Docking.DockWindowPlaceholder AutoHideSize="200, 200" DockWindowName="Zoom IF" DockWindowText="FFT: IF Spectrum *" PreviousDockState="Docked" Location="0, 0" Font="Segoe UI, 9pt" />
+        </Windows>
+      </Telerik.WinControls.UI.Docking.AutoHideGroup>
+    </BottomAutoHideGroups>
+  </SerializableAutoHideContainer>
+  <SerializableFloatingWindows>
+    <Telerik.WinControls.UI.Docking.SerializableFloatingWindow BackColor="Black" Location="547, 428" ClientSize="292, 267" ZIndex="1" WindowState="Normal">
+      <DockContainer Orientation="Vertical" SplitterWidth="8" Collapsed="True" ThemeName="FluentDark" Dock="Fill" Location="0, 0" Name="" Size="292, 267" TabIndex="0" TabStop="False">
+        <SizeInfo SplitterCorrection="0, 0" AutoSizeScale="0, 0" />
+        <Controls>
+          <Telerik.WinControls.UI.Docking.ToolTabStrip Size="292, 267" Location="0, 0" ThemeName="FluentDark" Name="DockTabStrip39" TabIndex="0" TabStop="False">
+            <SizeInfo SplitterCorrection="0, 0" AutoSizeScale="0, 0" />
+          </Telerik.WinControls.UI.Docking.ToolTabStrip>
+        </Controls>
+      </DockContainer>
+    </Telerik.WinControls.UI.Docking.SerializableFloatingWindow>
+    <Telerik.WinControls.UI.Docking.SerializableFloatingWindow BackColor="Black" Location="1559, 275" ClientSize="292, 267" ZIndex="2" WindowState="Normal">
+      <DockContainer Orientation="Vertical" SplitterWidth="8" Collapsed="True" ThemeName="FluentDark" Dock="Fill" Location="0, 0" Name="" Size="292, 267" TabIndex="0" TabStop="False">
+        <SizeInfo SplitterCorrection="0, 0" AutoSizeScale="0, 0" />
+        <Controls>
+          <Telerik.WinControls.UI.Docking.ToolTabStrip Size="292, 267" Location="0, 0" ThemeName="FluentDark" Name="DockTabStrip49" TabIndex="0" TabStop="False">
+            <SizeInfo SplitterCorrection="0, -2" AutoSizeScale="0, -0.002702698" AbsoluteSize="250, 699" />
+          </Telerik.WinControls.UI.Docking.ToolTabStrip>
+        </Controls>
+      </DockContainer>
+    </Telerik.WinControls.UI.Docking.SerializableFloatingWindow>
+    <Telerik.WinControls.UI.Docking.SerializableFloatingWindow BackColor="Black" Location="1282, 308" ClientSize="292, 267" ZIndex="3" WindowState="Normal">
+      <DockContainer Orientation="Vertical" SplitterWidth="8" Collapsed="True" ThemeName="FluentDark" Dock="Fill" Location="0, 0" Name="" Size="292, 267" TabIndex="0" TabStop="False">
+        <SizeInfo SplitterCorrection="0, 0" AutoSizeScale="0, 0" />
+        <Controls>
+          <Telerik.WinControls.UI.Docking.ToolTabStrip Size="292, 267" Location="0, 0" ThemeName="FluentDark" Name="DockTabStrip51" TabIndex="0" TabStop="False">
+            <SizeInfo SplitterCorrection="0, -43" AutoSizeScale="0, -0.05675675" AbsoluteSize="250, 250" />
+          </Telerik.WinControls.UI.Docking.ToolTabStrip>
+        </Controls>
+      </DockContainer>
+    </Telerik.WinControls.UI.Docking.SerializableFloatingWindow>
+    <Telerik.WinControls.UI.Docking.SerializableFloatingWindow BackColor="Black" Location="558, 477" ClientSize="292, 267" ZIndex="4" WindowState="Normal">
+      <DockContainer Orientation="Vertical" SplitterWidth="8" Collapsed="True" ThemeName="FluentDark" Dock="Fill" Location="0, 0" Name="" Size="292, 267" TabIndex="0" TabStop="False">
+        <SizeInfo SplitterCorrection="0, 0" AutoSizeScale="0, 0" />
+        <Controls>
+          <Telerik.WinControls.UI.Docking.ToolTabStrip Size="292, 267" Location="0, 0" ThemeName="FluentDark" Name="DockTabStrip53" TabIndex="0" TabStop="False">
+            <SizeInfo SplitterCorrection="0, 77" AutoSizeScale="0, 0.0894309" />
+          </Telerik.WinControls.UI.Docking.ToolTabStrip>
+        </Controls>
+      </DockContainer>
+    </Telerik.WinControls.UI.Docking.SerializableFloatingWindow>
+    <Telerik.WinControls.UI.Docking.SerializableFloatingWindow BackColor="Black" Location="123, 541" ClientSize="292, 267" ZIndex="5" WindowState="Normal">
+      <DockContainer Orientation="Vertical" SplitterWidth="8" Collapsed="True" ThemeName="FluentDark" Dock="Fill" Location="0, 0" Name="" Size="292, 267" TabIndex="0" TabStop="False">
+        <SizeInfo SplitterCorrection="0, 0" AutoSizeScale="0, 0" />
+        <Controls>
+          <Telerik.WinControls.UI.Docking.ToolTabStrip Size="292, 267" Location="0, 0" ThemeName="FluentDark" Name="DockTabStrip55" TabIndex="0" TabStop="False">
+            <SizeInfo SplitterCorrection="0, 24" AutoSizeScale="0, 0.02787456" />
+          </Telerik.WinControls.UI.Docking.ToolTabStrip>
+        </Controls>
+      </DockContainer>
+    </Telerik.WinControls.UI.Docking.SerializableFloatingWindow>
+    <Telerik.WinControls.UI.Docking.SerializableFloatingWindow BackColor="Black" Location="1490, 640" ClientSize="292, 267" ZIndex="6" WindowState="Normal">
+      <DockContainer Orientation="Vertical" SplitterWidth="8" Collapsed="True" ThemeName="FluentDark" Dock="Fill" Location="0, 0" Name="" Size="292, 267" TabIndex="0" TabStop="False">
+        <SizeInfo SplitterCorrection="0, 0" AutoSizeScale="0, 0" />
+        <Controls>
+          <Telerik.WinControls.UI.Docking.ToolTabStrip Size="292, 267" Location="0, 0" ThemeName="FluentDark" Name="DockTabStrip57" TabIndex="0" TabStop="False">
+            <SizeInfo SplitterCorrection="0, -25" AutoSizeScale="0, -0.035135135" AbsoluteSize="250, 250" />
+          </Telerik.WinControls.UI.Docking.ToolTabStrip>
+        </Controls>
+      </DockContainer>
+    </Telerik.WinControls.UI.Docking.SerializableFloatingWindow>
+    <Telerik.WinControls.UI.Docking.SerializableFloatingWindow BackColor="Black" Location="162, 517" ClientSize="292, 267" ZIndex="7" WindowState="Normal">
+      <DockContainer Orientation="Vertical" SplitterWidth="8" Collapsed="True" ThemeName="FluentDark" Dock="Fill" Location="0, 0" Name="" Size="292, 267" TabIndex="0" TabStop="False">
+        <SizeInfo SplitterCorrection="0, 0" AutoSizeScale="0, 0" />
+        <Controls>
+          <Telerik.WinControls.UI.Docking.ToolTabStrip Size="292, 267" Location="0, 0" ThemeName="FluentDark" Name="DockTabStrip59" TabIndex="0" TabStop="False">
+            <SizeInfo SplitterCorrection="0, 0" AutoSizeScale="0, 0" />
+          </Telerik.WinControls.UI.Docking.ToolTabStrip>
+        </Controls>
+      </DockContainer>
+    </Telerik.WinControls.UI.Docking.SerializableFloatingWindow>
+    <Telerik.WinControls.UI.Docking.SerializableFloatingWindow BackColor="Black" Location="114, 371" ClientSize="292, 267" ZIndex="8" WindowState="Normal">
+      <DockContainer Orientation="Vertical" SplitterWidth="8" Collapsed="True" ThemeName="FluentDark" Dock="Fill" Location="0, 0" Name="" Size="292, 267" TabIndex="0" TabStop="False">
+        <SizeInfo SplitterCorrection="0, 0" AutoSizeScale="0, 0" />
+        <Controls>
+          <Telerik.WinControls.UI.Docking.ToolTabStrip Size="292, 267" Location="0, 0" ThemeName="FluentDark" Name="DockTabStrip61" TabIndex="0" TabStop="False">
+            <SizeInfo SplitterCorrection="0, 0" AutoSizeScale="0, 0" />
+          </Telerik.WinControls.UI.Docking.ToolTabStrip>
+        </Controls>
+      </DockContainer>
+    </Telerik.WinControls.UI.Docking.SerializableFloatingWindow>
+    <Telerik.WinControls.UI.Docking.SerializableFloatingWindow BackColor="Black" Location="918, 633" ClientSize="292, 267" ZIndex="9" WindowState="Normal">
+      <DockContainer Orientation="Vertical" SplitterWidth="8" Collapsed="True" ThemeName="FluentDark" Dock="Fill" Location="0, 0" Name="" Size="292, 267" TabIndex="0" TabStop="False">
+        <SizeInfo SplitterCorrection="0, 0" AutoSizeScale="0, 0" />
+        <Controls>
+          <Telerik.WinControls.UI.Docking.ToolTabStrip Size="292, 267" Location="0, 0" ThemeName="FluentDark" Name="DockTabStrip63" TabIndex="0" TabStop="False">
+            <SizeInfo SplitterCorrection="0, 0" AutoSizeScale="0, 0" />
+          </Telerik.WinControls.UI.Docking.ToolTabStrip>
+        </Controls>
+      </DockContainer>
+    </Telerik.WinControls.UI.Docking.SerializableFloatingWindow>
+    <Telerik.WinControls.UI.Docking.SerializableFloatingWindow BackColor="Black" Location="844, 853" ClientSize="292, 267" ZIndex="10" WindowState="Normal">
+      <DockContainer Orientation="Vertical" SplitterWidth="8" Collapsed="True" ThemeName="FluentDark" Dock="Fill" Location="0, 0" Name="" Size="292, 267" TabIndex="0" TabStop="False">
+        <SizeInfo SplitterCorrection="0, 0" AutoSizeScale="0, 0" />
+        <Controls>
+          <Telerik.WinControls.UI.Docking.ToolTabStrip Size="292, 267" Location="0, 0" ThemeName="FluentDark" Name="DockTabStrip65" TabIndex="0" TabStop="False">
+            <SizeInfo SplitterCorrection="0, 0" AutoSizeScale="0, 0" />
+          </Telerik.WinControls.UI.Docking.ToolTabStrip>
+        </Controls>
+      </DockContainer>
+    </Telerik.WinControls.UI.Docking.SerializableFloatingWindow>
+    <Telerik.WinControls.UI.Docking.SerializableFloatingWindow BackColor="Black" Location="596, 859" ClientSize="292, 267" ZIndex="11" WindowState="Normal">
+      <DockContainer Orientation="Vertical" SplitterWidth="8" Collapsed="True" ThemeName="FluentDark" Dock="Fill" Location="0, 0" Name="" Size="292, 267" TabIndex="0" TabStop="False">
+        <SizeInfo SplitterCorrection="0, 0" AutoSizeScale="0, 0" />
+        <Controls>
+          <Telerik.WinControls.UI.Docking.ToolTabStrip Size="292, 267" Location="0, 0" ThemeName="FluentDark" Name="DockTabStrip67" TabIndex="0" TabStop="False">
+            <SizeInfo SplitterCorrection="0, 0" AutoSizeScale="0, 0" />
+          </Telerik.WinControls.UI.Docking.ToolTabStrip>
+        </Controls>
+      </DockContainer>
+    </Telerik.WinControls.UI.Docking.SerializableFloatingWindow>
+    <Telerik.WinControls.UI.Docking.SerializableFloatingWindow BackColor="Black" Location="949, 524" ClientSize="292, 267" ZIndex="12" WindowState="Normal">
+      <DockContainer Orientation="Vertical" SplitterWidth="8" Collapsed="True" ThemeName="FluentDark" Dock="Fill" Location="0, 0" Name="" Size="292, 267" TabIndex="0" TabStop="False">
+        <SizeInfo SplitterCorrection="0, 0" AutoSizeScale="0, 0" />
+        <Controls>
+          <Telerik.WinControls.UI.Docking.ToolTabStrip Size="292, 267" Location="0, 0" ThemeName="FluentDark" Name="DockTabStrip71" TabIndex="0" TabStop="False">
+            <SizeInfo SplitterCorrection="0, 0" AutoSizeScale="0, 0" />
+          </Telerik.WinControls.UI.Docking.ToolTabStrip>
+        </Controls>
+      </DockContainer>
+    </Telerik.WinControls.UI.Docking.SerializableFloatingWindow>
+  </SerializableFloatingWindows>
+  <Controls>
+    <Telerik.WinControls.UI.RadSplitContainer IsCleanUpTarget="True" Orientation="Horizontal" SplitterWidth="8" Collapsed="True" ThemeName="FluentDark" Location="28, 0" Name="" Size="200, 849" TabIndex="2" TabStop="False">
+      <SizeInfo SplitterCorrection="0, 0" AutoSizeScale="0, 0" />
+      <Controls>
+        <Telerik.WinControls.UI.Docking.ToolTabStrip Size="200, 849" Location="0, 0" ThemeName="FluentDark" Name="DockTabStrip60" TabIndex="0" TabStop="False">
+          <SizeInfo SplitterCorrection="0, 0" AutoSizeScale="0, 0" />
+          <Controls>
+            <Telerik.WinControls.UI.Docking.ToolWindow Caption="" AllowedDockState="Docked, Hidden, AutoHide, Floating" PreviousDockState="AutoHide" DesiredDockState="Hidden" Name="Noise Reduction (IF)" Size="230, 807" Location="4, 38" Font="Segoe UI, 9pt" Text="IF: Noise Reduction *" />
+            <Telerik.WinControls.UI.Docking.ToolWindow Caption="" AllowedDockState="Docked, Hidden, AutoHide, Floating" PreviousDockState="AutoHide" DesiredDockState="Hidden" Name="Noise Reduction (AF)" Size="227, 807" Location="4, 38" Font="Segoe UI, 9pt" Text="Audio: Noise Reduction *" />
+          </Controls>
+        </Telerik.WinControls.UI.Docking.ToolTabStrip>
+        <Telerik.WinControls.UI.Docking.ToolTabStrip Size="200, 421" Location="0, 428" ThemeName="FluentDark" Name="DockTabStrip62" TabIndex="0" TabStop="False">
+          <SizeInfo SplitterCorrection="0, 33" AutoSizeScale="0, 0.038327515" />
+          <Controls>
+            <Telerik.WinControls.UI.Docking.ToolWindow Caption="" AllowedDockState="Docked, Hidden, AutoHide, Floating" PreviousDockState="AutoHide" DesiredDockState="Hidden" Name="Noise Blanker (BB)" Size="228, 807" Location="4, 38" Font="Segoe UI, 9pt" Text="Baseband: Noise Blanker *" />
+            <Telerik.WinControls.UI.Docking.ToolWindow Caption="" AllowedDockState="Docked, Hidden, AutoHide, Floating" PreviousDockState="AutoHide" DesiredDockState="Hidden" Name="Noise Blanker (IF)" Size="229, 807" Location="4, 38" Font="Segoe UI, 9pt" Text="IF: Noise Blanker *" />
+            <Telerik.WinControls.UI.Docking.ToolWindow Caption="" AllowedDockState="Docked, Hidden, AutoHide, Floating" PreviousDockState="AutoHide" DesiredDockState="Hidden" Name="Noise Blanker (AF)" Size="227, 807" Location="4, 38" Font="Segoe UI, 9pt" Text="Audio: Noise Blanker *" />
+          </Controls>
+        </Telerik.WinControls.UI.Docking.ToolTabStrip>
+        <Telerik.WinControls.UI.Docking.ToolTabStrip Size="200, 245" Location="0, 604" ThemeName="FluentDark" Name="DockTabStrip16" TabIndex="2" TabStop="False">
+          <SizeInfo SplitterCorrection="0, -134" AutoSizeScale="0, -0.038327545" />
+          <Controls>
+            <Telerik.WinControls.UI.Docking.ToolWindow Caption="" AllowedDockState="Docked, Hidden, AutoHide, Floating" PreviousDockState="AutoHide" DesiredDockState="Hidden" Name="Recorder (BB)" Size="230, 807" Location="4, 38" Font="Segoe UI, 9pt" Text="Baseband: Simple Recorder *" />
+            <Telerik.WinControls.UI.Docking.ToolWindow Caption="" AllowedDockState="Docked, Hidden, AutoHide, Floating" PreviousDockState="AutoHide" DesiredDockState="Hidden" Name="Recorder (AF)" Size="233, 807" Location="4, 38" Font="Segoe UI, 9pt" Text="Audio: Simple Recorder *" />
+          </Controls>
+        </Telerik.WinControls.UI.Docking.ToolTabStrip>
+      </Controls>
+    </Telerik.WinControls.UI.RadSplitContainer>
+    <Telerik.WinControls.UI.RadSplitContainer IsCleanUpTarget="True" Orientation="Horizontal" SplitterWidth="8" ThemeName="FluentDark" Location="28, 0" Name="" Size="1570, 849" TabIndex="0" TabStop="False">
+      <SizeInfo SplitterCorrection="0, 0" AutoSizeScale="0, 0" />
+      <Controls>
+        <Telerik.WinControls.UI.RadSplitContainer IsCleanUpTarget="True" Orientation="Vertical" SplitterWidth="8" ThemeName="FluentDark" Location="0, 0" Name="" Size="1570, 849" TabIndex="0" TabStop="False">
+          <SizeInfo SplitterCorrection="0, 0" AutoSizeScale="0, 0" />
+          <Controls>
+            <Telerik.WinControls.UI.Docking.ToolTabStrip Size="248, 849" Location="0, 0" ThemeName="FluentDark" Name="DockTabStrip6" TabIndex="5" TabStop="False">
+              <SizeInfo SplitterCorrection="0, 0" AutoSizeScale="0, 0" />
+              <Controls>
+                <Telerik.WinControls.UI.Docking.ToolWindow Caption="" AllowedDockState="Docked, Hidden, AutoHide, Floating" PreviousDockState="AutoHide" DesiredDockState="Hidden" Name="Notch (IF)" Size="238, 807" Location="4, 38" Font="Segoe UI, 9pt" Text="IF: Notch + Filter *" />
+                <Telerik.WinControls.UI.Docking.ToolWindow Caption="" AllowedDockState="Docked, Hidden, AutoHide, Floating" PreviousDockState="AutoHide" DesiredDockState="Hidden" Name="CoChannel Canceller (FM)" Size="228, 807" Location="4, 38" Font="Segoe UI, 9pt" Text="IF: Co-Channel Canceller for FM *" />
+                <Telerik.WinControls.UI.Docking.ToolWindow Caption="" AllowedDockState="Docked, Hidden, AutoHide, Floating" PreviousDockState="AutoHide" DesiredDockState="Hidden" Name="CoChannel Canceller (AM)" Size="229, 807" Location="4, 38" Font="Segoe UI, 9pt" Text="IF: Co-Channel Canceller for AM *" />
+              </Controls>
+            </Telerik.WinControls.UI.Docking.ToolTabStrip>
+            <Telerik.WinControls.UI.RadSplitContainer IsCleanUpTarget="True" Orientation="Horizontal" SplitterWidth="8" ThemeName="FluentDark" Location="0, 0" Name="" Size="254, 849" TabIndex="1" TabStop="False">
+              <SizeInfo SplitterCorrection="4, -147" AutoSizeScale="0, -0.0462963" AbsoluteSize="254, 699" />
+              <Controls>
+                <Telerik.WinControls.UI.Docking.ToolTabStrip SelectedIndex="0" Size="254, 383" Location="0, 0" ThemeName="FluentDark" Name="DockTabStrip12" TabIndex="1" TabStop="False">
+                  <SizeInfo SplitterCorrection="0, -148" AutoSizeScale="0, -0.044973552" AbsoluteSize="250, 699" />
+                  <Controls>
+                    <Telerik.WinControls.UI.Docking.ToolWindow Caption="" AllowedDockState="Docked, Hidden, AutoHide, Floating" PreviousDockState="Docked" Name="radioToolWindow" Size="246, 345" Location="4, 34" AutoScroll="True" Font="Segoe UI, 9pt" Text="Radio" />
+                  </Controls>
+                </Telerik.WinControls.UI.Docking.ToolTabStrip>
+                <Telerik.WinControls.UI.Docking.ToolTabStrip SelectedIndex="0" Size="254, 458" Location="0, 391" ThemeName="FluentDark" Name="DockTabStrip14" TabIndex="2" TabStop="False">
+                  <SizeInfo SplitterCorrection="0, 215" AutoSizeScale="0, 0.044973552" AbsoluteSize="250, 699" />
+                  <Controls>
+                    <Telerik.WinControls.UI.Docking.ToolWindow Caption="" AllowedDockState="Docked, Hidden, AutoHide, Floating" PreviousDockState="Docked" Name="sourceToolWindow" Size="246, 420" Location="4, 34" AutoScroll="True" Font="Microsoft Sans Serif, 8.25pt" Text="Source: Baseband File Player" />
+                  </Controls>
+                </Telerik.WinControls.UI.Docking.ToolTabStrip>
+              </Controls>
+            </Telerik.WinControls.UI.RadSplitContainer>
+            <Telerik.WinControls.UI.RadSplitContainer IsCleanUpTarget="True" Orientation="Horizontal" SplitterWidth="8" ThemeName="FluentDark" Location="262, 0" Name="" Size="1308, 849" TabIndex="22" TabStop="False">
+              <SizeInfo SplitterCorrection="-746, 0" AutoSizeScale="0, 0" AbsoluteSize="1308, 200" />
+              <Controls>
+                <Telerik.WinControls.UI.Docking.DocumentContainer IsMainDocumentContainer="True" Padding="0, 0, 0, 0" SplitterWidth="8" TabIndex="2" Orientation="Vertical" ThemeName="FluentDark" CausesValidation="False" Name="mainDocumentContainer" RightToLeft="No">
+                  <SizeInfo SplitterCorrection="-725, 0" AutoSizeScale="0, 0" SizeMode="Fill" AbsoluteSize="1329, 200" />
+                  <Controls>
+                    <Telerik.WinControls.UI.Docking.DocumentTabStrip SelectedIndex="0" TabStripVisible="False" Size="1308, 849" Location="0, 0" ThemeName="FluentDark" CausesValidation="False" Name="mainDocumentTabStrip" TabIndex="0" TabStop="False">
+                      <SizeInfo SplitterCorrection="0, 0" AutoSizeScale="0, 0" />
+                      <Controls>
+                        <Telerik.WinControls.UI.Docking.DocumentWindow IsPinned="False" CloseAction="Hide" PreviousDockState="TabbedDocument" Name="mainDocumentWindow" Size="1296, 837" Location="5, 5" Font="Microsoft Sans Serif, 8.25pt" Text="Main Spectrum View" />
+                      </Controls>
+                    </Telerik.WinControls.UI.Docking.DocumentTabStrip>
+                  </Controls>
+                </Telerik.WinControls.UI.Docking.DocumentContainer>
+                <Telerik.WinControls.UI.Docking.ToolTabStrip Size="1329, 200" Location="0, 441" ThemeName="FluentDark" Name="DockTabStrip72" TabIndex="4" TabStop="False">
+                  <SizeInfo SplitterCorrection="0, 0" AutoSizeScale="0, 0" />
+                  <Controls>
+                    <Telerik.WinControls.UI.Docking.ToolWindow Caption="" AllowedDockState="Docked, Hidden, AutoHide, Floating" PreviousDockState="Docked" Name="Zoom MT" Size="239, 807" Location="7, 38" Font="Segoe UI, 9pt" Text="FFT: Micro Tuner *" />
+                  </Controls>
+                </Telerik.WinControls.UI.Docking.ToolTabStrip>
+                <Telerik.WinControls.UI.RadSplitContainer IsCleanUpTarget="True" Orientation="Vertical" SplitterWidth="8" Collapsed="True" ThemeName="FluentDark" Location="0, 649" Name="" Size="1308, 200" TabIndex="3" TabStop="False">
+                  <SizeInfo SplitterCorrection="0, 0" AutoSizeScale="0, 0" />
+                  <Controls>
+                    <Telerik.WinControls.UI.Docking.ToolTabStrip Size="1308, 200" Location="0, 0" ThemeName="FluentDark" Name="DockTabStrip66" TabIndex="4" TabStop="False">
+                      <SizeInfo SplitterCorrection="0, 0" AutoSizeScale="0, 0" />
+                      <Controls>
+                        <Telerik.WinControls.UI.Docking.ToolWindow Caption="" AllowedDockState="Docked, Hidden, AutoHide, Floating" PreviousDockState="Docked" Name="Zoom IF" Size="1562, 155" Location="4, 41" Font="Segoe UI, 9pt" Text="FFT: IF Spectrum *" />
+                      </Controls>
+                    </Telerik.WinControls.UI.Docking.ToolTabStrip>
+                    <Telerik.WinControls.UI.Docking.ToolTabStrip Size="661, 200" Location="668, 0" ThemeName="FluentDark" Name="DockTabStrip68" TabIndex="5" TabStop="False">
+                      <SizeInfo SplitterCorrection="0, 0" AutoSizeScale="0, 0" />
+                      <Controls>
+                        <Telerik.WinControls.UI.Docking.ToolWindow Caption="" AllowedDockState="Docked, Hidden, AutoHide, Floating" PreviousDockState="Docked" Name="Zoom MPX" Size="1562, 155" Location="4, 41" Font="Segoe UI, 9pt" Text="FFT: FM MPX *" />
+                      </Controls>
+                    </Telerik.WinControls.UI.Docking.ToolTabStrip>
+                    <Telerik.WinControls.UI.Docking.ToolTabStrip Size="437, 200" Location="892, 0" ThemeName="FluentDark" Name="DockTabStrip64" TabIndex="3" TabStop="False">
+                      <SizeInfo SplitterCorrection="0, 0" AutoSizeScale="0, 0" />
+                      <Controls>
+                        <Telerik.WinControls.UI.Docking.ToolWindow Caption="" AllowedDockState="Docked, Hidden, AutoHide, Floating" PreviousDockState="Docked" Name="Zoom AF" Size="1562, 155" Location="4, 41" Font="Segoe UI, 9pt" Text="FFT: Audio Spectrum *" />
+                      </Controls>
+                    </Telerik.WinControls.UI.Docking.ToolTabStrip>
+                  </Controls>
+                </Telerik.WinControls.UI.RadSplitContainer>
+              </Controls>
+            </Telerik.WinControls.UI.RadSplitContainer>
+            <Telerik.WinControls.UI.Docking.ToolTabStrip SelectedIndex="0" Size="250, 699" Location="258, 0" ThemeName="FluentDark" Name="DockTabStrip18" TabIndex="21" TabStop="False">
+              <SizeInfo SplitterCorrection="0, 0" AutoSizeScale="-0.2637051, 0" AbsoluteSize="250, 250" />
+              <Controls>
+                <Telerik.WinControls.UI.Docking.ToolWindow Caption="" AllowedDockState="Docked, Hidden, AutoHide, Floating" PreviousDockState="Docked" Name="Frequency Manager" Size="239, 807" Location="4, 38" AutoScroll="True" Font="Segoe UI, 9pt" Text="Frequency Manager *" />
+              </Controls>
+            </Telerik.WinControls.UI.Docking.ToolTabStrip>
+            <Telerik.WinControls.UI.Docking.ToolTabStrip Size="250, 669" Location="0, 0" ThemeName="FluentDark" Name="DockTabStrip12" TabIndex="6" TabStop="False">
+              <SizeInfo SplitterCorrection="0, 68" AutoSizeScale="0, 0.091891885" AbsoluteSize="250, 250" />
+              <Controls>
+                <Telerik.WinControls.UI.Docking.ToolWindow Caption="" AllowedDockState="Docked, Hidden, AutoHide, Floating" PreviousDockState="AutoHide" DesiredDockState="Hidden" Name="SNR Logger" Size="239, 807" Location="7, 38" AutoScroll="True" Font="Segoe UI, 9pt" Text="SNR Logger *" />
+                <Telerik.WinControls.UI.Docking.ToolWindow Caption="" AllowedDockState="Docked, Hidden, AutoHide, Floating" PreviousDockState="AutoHide" DesiredDockState="Hidden" Name="Signal Diagnostics" Size="239, 807" Location="7, 38" AutoScroll="True" Font="Segoe UI, 9pt" Text="Signal Diagnostics *" />
+              </Controls>
+            </Telerik.WinControls.UI.Docking.ToolTabStrip>
+            <Telerik.WinControls.UI.RadSplitContainer IsCleanUpTarget="True" Orientation="Horizontal" SplitterWidth="8" Collapsed="True" ThemeName="FluentDark" CausesValidation="False" Location="1112, 0" Name="" Size="250, 669" TabIndex="20" TabStop="False">
+              <SizeInfo SplitterCorrection="0, 0" AutoSizeScale="-0.06698389, 0" AbsoluteSize="250, 699" />
+              <Controls>
+                <Telerik.WinControls.UI.Docking.ToolTabStrip Size="250, 266" Location="0, 0" ThemeName="FluentDark" Name="DockTabStrip16" TabIndex="8" TabStop="False">
+                  <SizeInfo SplitterCorrection="0, 44" AutoSizeScale="0, 0.074017346" AbsoluteSize="250, 699" />
+                  <Controls>
+                    <Telerik.WinControls.UI.Docking.ToolWindow Caption="" AllowedDockState="Docked, Hidden, AutoHide, Floating" PreviousDockState="AutoHide" DesiredDockState="Hidden" Name="audioToolWindow" Size="239, 807" Location="7, 38" AutoScroll="True" Font="Microsoft Sans Serif, 8.25pt" Text="Audio" />
+                    <Telerik.WinControls.UI.Docking.ToolWindow Caption="" AllowedDockState="Docked, Hidden, AutoHide, Floating" PreviousDockState="AutoHide" DesiredDockState="Hidden" Name="agcToolWindow" Size="239, 807" Location="7, 38" AutoScroll="True" Font="Microsoft Sans Serif, 8.25pt" Text="AGC" />
+                  </Controls>
+                </Telerik.WinControls.UI.Docking.ToolTabStrip>
+                <Telerik.WinControls.UI.Docking.ToolTabStrip Size="250, 340" Location="0, 0" ThemeName="FluentDark" Name="DockTabStrip18" TabIndex="9" TabStop="False">
+                  <SizeInfo SplitterCorrection="0, -45" AutoSizeScale="0, 0.014292985" AbsoluteSize="250, 699" />
+                  <Controls>
+                    <Telerik.WinControls.UI.Docking.ToolWindow Caption="" AllowedDockState="Docked, Hidden, AutoHide, Floating" PreviousDockState="Docked" Name="displayToolWindow" Size="239, 807" Location="7, 38" AutoScroll="True" Font="Microsoft Sans Serif, 8.25pt" Text="Display" />
+                  </Controls>
+                </Telerik.WinControls.UI.Docking.ToolTabStrip>
+                <Telerik.WinControls.UI.Docking.ToolTabStrip Size="250, 669" Location="0, 0" ThemeName="FluentDark" Name="DockTabStrip58" TabIndex="10" TabStop="False">
+                  <SizeInfo SplitterCorrection="0, -25" AutoSizeScale="0, -0.088310376" AbsoluteSize="250, 250" />
+                  <Controls>
+                    <Telerik.WinControls.UI.Docking.ToolWindow Caption="" AllowedDockState="Docked, Hidden, AutoHide, Floating" PreviousDockState="AutoHide" DesiredDockState="Hidden" Name="Band Plan" Size="239, 807" Location="7, 38" AutoScroll="True" Font="Segoe UI, 9pt" Text="Band Plan *" />
+                  </Controls>
+                </Telerik.WinControls.UI.Docking.ToolTabStrip>
+              </Controls>
+            </Telerik.WinControls.UI.RadSplitContainer>
+          </Controls>
+        </Telerik.WinControls.UI.RadSplitContainer>
+        <Telerik.WinControls.UI.Docking.ToolTabStrip Size="1102, 200" Location="0, 509" ThemeName="FluentDark" Name="DockTabStrip9" TabIndex="1" TabStop="False">
+          <SizeInfo SplitterCorrection="0, 0" AutoSizeScale="0, 0" />
+          <Controls>
+            <Telerik.WinControls.UI.Docking.ToolWindow Caption="IF Filter + Notch Processor *" AllowedDockState="Docked, Hidden, Floating" PreviousDockState="Docked" DesiredDockState="Hidden" Name="&lt;Unknown&gt;/SDRSharp.PanView.SpectrumAnalyzer/IF Filter + Notch Processor */1" Size="1094, 162" Location="4, 34" AutoScroll="True" Font="Segoe UI, 9pt" Text="IF Filter + Notch Processor *" />
+          </Controls>
+        </Telerik.WinControls.UI.Docking.ToolTabStrip>
+      </Controls>
+    </Telerik.WinControls.UI.RadSplitContainer>
+  </Controls>
+</RadDock>

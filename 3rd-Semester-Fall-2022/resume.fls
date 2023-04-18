@@ -1,0 +1,6 @@
+PWD /home/sharpe/Documents/Rowan/2022 Fall
+INPUT /usr/share/texlive/texmf-dist/web2c/texmf.cnf
+INPUT /usr/share/texlive/texmf-dist/web2c/texmf.cnf
+INPUT /usr/share/texlive/texmf-var/web2c/pdftex/pdflatex.fmt
+INPUT /home/sharpe/Documents/Rowan/2022 Fall/resume.tex
+OUTPUT resume.log

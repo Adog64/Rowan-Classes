@@ -1,0 +1,32 @@
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2022.12.5)  5 DEC 2022 17:20
+entering extended mode
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+**test.tex
+(./test.tex
+LaTeX2e <2020-10-01> patch level 4
+L3 programming layer <2021-05-07>
+
+! LaTeX Error: File `hitec.cls' not found.
+
+Type X to quit or <RETURN> to proceed,
+or enter new name. (Default extension: cls)
+
+Enter file name: 
+! Emergency stop.
+<read *> 
+         
+l.2 \newcommand
+               {\HT}{\textsc{\raisebox{0.1em}{h}\raisebox{-0.1em}{i}%^^M
+*** (cannot \read from terminal in nonstop modes)
+
+ 
+Here is how much of TeX's memory you used:
+ 23 strings out of 480806
+ 448 string characters out of 5905151
+ 281494 words of memory out of 6000000
+ 17502 multiletter control sequences out of 15000+600000
+ 403430 words of font info for 27 fonts, out of 8000000 for 9000
+ 14 hyphenation exceptions out of 8191
+ 19i,0n,27p,108b,13s stack positions out of 5000i,500n,10000p,200000b,80000s
+!  ==> Fatal error occurred, no output PDF file produced!

@@ -1,0 +1,19 @@
+<Qucs Dataset 0.0.19>
+<indep acfrequency 1>
+  +6.00000000000000000000e+01
+</indep>
+<dep V1.i acfrequency>
+  -8.53607962061230864492e+02-j1.89353414498951053702e+01
+</dep>
+<dep Vin.v acfrequency>
+  +1.70000000000000000000e+02
+</dep>
+<dep VC.v acfrequency>
+  +1.69758734975671160328e+02-j6.39975353618718223458e+00
+</dep>
+<dep VR.v acfrequency>
+  +8.50000000000000000000e+01
+</dep>
+<dep VL.v acfrequency>
+  +1.69880468818205713433e+02+j4.50621939119767134230e+00
+</dep>

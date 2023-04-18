@@ -1,0 +1,118 @@
+%%%%%%%%%%%%%%%%%%%%%%%%
+% DO NOT TOUCH THIS PART
+\documentclass{hitec}
+\usepackage{xfrac}
+\newcommand{\HT}{\textsc{\raisebox{0.1em}{h}\raisebox{-0.1em}{i}%
+		\raisebox{0.1em}{t}\raisebox{-0.1em}{e}\raisebox{0.1em}{c} }}
+%%%%%%%%%%%%%%%%%%%%%%%% 
+
+
+
+% Enter the title of either the lab or some other title you think fits
+\title{DAC Lab}
+
+% Place you team members here
+\author{Aidan Sharpe and Elise Heim}
+
+
+
+
+\company{Rowan University}
+\confidential{\textbf{-- ECE 09.203: Lab 3 --}}
+
+
+% Place the packages you want to use here.
+\usepackage{hyperref} % This line is readily omitted if it makes trouble
+\usepackage{graphicx}
+
+
+
+\begin{document}
+	\maketitle
+	\section{Abstract}
+	This lab focused of the electrical behavior of a digital-to-analog converter (DAC) circuit. Circuit behavior was analyzed through Thévenin equivalence and observed with an oscilloscope to measure the output voltage at 16 input values. 
+	\\
+	\\
+	\noindent
+	The circuit was constructed using 100 and 200 resistors in a 4-bit R-2R ladder configuration. This configuration allowed for binary inputs representing the values zero to fifteen. These values were proportional to the output voltage with zero at $0\%$ output and fifteen at $100\%$ output. This output voltage was then fed into an amplifier for further observation.
+	
+	\section{Introduction}
+	If you've ever listened to a .wav, .mp3, .flac, or any other audio format on a computer or mobile player, then you have used a digital-to-analog converter (DAC). The DAC is one of the most important devices for consumers. They are in almost every electronic device with an audio output including laptops, phones, Bluetooth speakers, and even the little lightning to headphone jack dongles for iPhones. 
+	\\
+	\\
+	\noindent
+	
+	
+	\section{Background}
+	Before breaking down the components of a DAC, it is important to first understand them conceptually. DACs work by converting a number to a voltage in a defined range. The input number is almost universally a base-two integer.
+	\\
+	\\
+	\noindent
+	Assuming that a DAC uhe number of output states is determined by the
+	\\
+	\\
+	\noindent
+	Bringing it back to the electrical world, capacitors can be charged by a voltage source and discharged through a closed circuit. It is also important to note that capacitors do not charge or discharge instantly. For this reason, capacitors are categorized as \textit{reactive components}.
+	
+	\section{Procedure}
+	The following steps were taken to create and measure the "button debouncing" circuit.
+	\subsection{The Circuit}
+	First, use a breadboard to create recreate the circuit modeled by Figure 1. 
+	\begin{figure}[h]
+		\includegraphics[scale = .5]{R.png}
+		\caption{Circuit with button and resistor}
+		\label{fig:ResistorCircuit}
+	\end{figure}
+	\subsection{Setting Up the Scope}
+	Begin by configuring the scope. Start by pressing the \textbf{Default Setup} button, and confirm that the button is connected to channel 1. The scaling of the display can be altered by using the \textbf{Vertical Scaling} knob, which is portrayed by \textbf{Volts/Division}, and the horizontal knob which shows as \textbf{Seconds/Division}. Next, set up the scope's triggering. Select the \textbf{Trigger Type} of \textbf{Edge}, with \textbf{1 Source}, measuring a \textbf{Falling Slope}. Then for the \textbf{Trigger Mode}, one could either utilize the \textbf{Single Run} mode or \textbf{Trigger Mode: Normal} settings. 
+	
+	\subsection{Capturing Bounce and Readjusting Scope}
+	Next, capture the behavior of the button press. When pressed, the falling edge should be sharp. However, when the button is released, the rising edge will not be clean. Continue pressing the button until a bounce is recorded. Afterwards, alter the zoom using the \textbf{Horizontal Knob} and readjust the the Trigger by changing the slope to \textbf{Rising Edge} and the \textbf{Trigger Level} to 2.5V. 
+	\\
+	\subsection{Measuring Waveforms}
+	Now it is time to measure waveforms. This is the point when one realizes that they have never used this function of a scope before, and they need assistance. That is okay. If confident in abilities, one can start by pressing the \textbf{Cursors} button. The \textbf{Mode} should be set to \textbf{Manual}, there should be \textbf{1 Source}, and the X1 and X2 cursors should be enabled. Select X1 to control and use the \textbf{Cursors} knob to the beginning of a bounce. Place X2 on the other side of the bounce. The cursor panel will display the length of the bounce. Record this data. 
+	
+	\subsection{Debouncing Circuit}
+	Design a circuit that resembles Figure 2 by adding a capacitor in parallel with the resistor. 
+	\begin{figure}[h]
+		\includegraphics[scale = .5]{RC.png}
+		\caption{Circuit with button and resistor}
+		\label{fig:ResistorCircuit}
+	\end{figure}
+	\subsection{Calculations}
+	As stated earlier, capacitors are \textit{reactive components}. In the case of RC circuits, the voltage across a capacitor is shown by Equation \ref{eq:v-time-RC}. Upon closer inspection, it becomes apparent that an ideal capacitor takes an infinite amount of time to fully charge. For this reason, it is often the case that the voltage is measured at 63\% since this quantity closely approximates easy-to-calculate quantity shown by Equation \ref{eq:time-tau-approx}.
+	
+	\begin{equation}
+		V_{cap}(t)=V_{in}(1 - e^{\sfrac{-t}{RC}})
+		\label{eq:v-time-RC}
+	\end{equation}
+	
+	\begin{equation}
+		(1-e^{\sfrac{-RC}{RC}})\approx63\%
+		\label{eq:time-tau-approx}
+	\end{equation}
+	
+	
+	\section{Evaluation and Results}
+	
+	The 27k$\Omega$ resistor was chosen because 27 is one of the lab partner's favorite numbers. A 220 pF capacitor was originally chosen for the debouncing circuit because it was a nice shade of blue, but it was too small to have a significant enough impact on the circuit. The bounce was still apparent. Therefore, it was swapped out for a 1000pF yellow capacitor instead (a much less visually attractive color). This neutralized the bounce, seen in Figure \ref{fig:smooth}.
+	
+	\begin{figure}[h]
+		\centering
+		\includegraphics[scale = .5]{Smooth.png}
+		\caption{Smooth voltage changes from circuit with 1000pF capacitor.}
+		\label{fig:smooth}
+	\end{figure}
+	
+	
+	\subsection{Measurement Uncertainty}
+	The resistors in the lab have a $\pm5\%$ tolerance. While the resistor may have an approximate value of 27000$\Omega$, this really can vary between 25650$\Omega$-28350$\Omega$. This impacts the circuit because the exact values of the debouncing circuit will be altered through propagation of error. The scope also has a degree of uncertainty. This means that the exact values measured on the scope may be just a little bit off. Additionally, all components utilized are impacted by their temperature. 
+	
+	\section{Discussion/Conclusions}
+	The "debouncing" circuit was quite effective at smoothing voltage change over time. Additionally, since the circuit is both cheap and easy to construct, all electrical engineers should have this tool in their back pocket whenever working with buttons. There really is no excuse for unintentional button bounce.
+	\\
+	\\
+	\noindent
+	At the end of the day, you might not ever get your money back from that sketchy arcade machine. However, the engineers behind it were obviously not competent, so you are probably better of staying away from that cabinet anyway. 
+\end{document}
+

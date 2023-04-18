@@ -1,0 +1,10 @@
+<Qucs Dataset 0.0.20>
+<indep V1.I 1>
+  -1.09999999999999984943e-03
+</indep>
+<indep source_voltage.V 1>
+  +3.29999999999999982236e+00
+</indep>
+<indep divided_voltage.V 1>
+  +1.64999999999999991118e+00
+</indep>

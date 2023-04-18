@@ -1,0 +1,134 @@
+{
+    "version": 5,
+    "graph": {
+        "viewport": {
+            "xmin": -640.4170222131186,
+            "ymin": -972.9817222118318,
+            "xmax": 2152.001909689061,
+            "ymax": 954.8804585320268
+        }
+    },
+    "expressions": {
+        "list": [
+            {
+                "type": "expression",
+                "id": "2",
+                "color": "#388c46",
+                "latex": "W\\left(V\\right)=P_0\\left(V_0-\\frac{V}{1000000}\\right)\\ln\\left(\\frac{V_0}{V_0-\\frac{V}{1000000}}\\right)",
+                "style": "SOLID"
+            },
+            {
+                "type": "expression",
+                "id": "3",
+                "color": "#fa7e19",
+                "latex": "P_0=227527",
+                "hidden": true,
+                "sliderMax": "227527",
+                "style": "SOLID"
+            },
+            {
+                "type": "expression",
+                "id": "4",
+                "color": "#6042a6",
+                "latex": "V_0=0.002",
+                "style": "SOLID"
+            },
+            {
+                "type": "expression",
+                "id": "5",
+                "color": "#000000",
+                "latex": "f\\left(x\\right)=ax^2+bx+c",
+                "style": "SOLID"
+            },
+            {
+                "type": "expression",
+                "id": "6",
+                "color": "#c74440",
+                "latex": "a=-0.0001045",
+                "hidden": true,
+                "style": "SOLID"
+            },
+            {
+                "type": "expression",
+                "id": "7",
+                "color": "#2d70b3",
+                "latex": "b=0.0993",
+                "hidden": true,
+                "style": "SOLID"
+            },
+            {
+                "type": "expression",
+                "id": "8",
+                "color": "#388c46",
+                "latex": "c=27.6",
+                "hidden": true,
+                "sliderMax": "27.6",
+                "style": "SOLID"
+            },
+            {
+                "type": "expression",
+                "id": "9",
+                "color": "#fa7e19",
+                "latex": "m\\left(V\\right)=\\frac{V}{2000}+m_0",
+                "hidden": true,
+                "sliderMax": "100",
+                "style": "SOLID"
+            },
+            {
+                "type": "expression",
+                "id": "10",
+                "color": "#6042a6",
+                "latex": "m_0=\\frac{213.3}{1000}",
+                "hidden": true,
+                "sliderMax": "213.3",
+                "style": "SOLID"
+            },
+            {
+                "type": "expression",
+                "id": "11",
+                "color": "#000000",
+                "latex": "h\\left(V\\right)=\\frac{W\\left(V\\right)}{m\\left(V\\right)\\cdot g}",
+                "hidden": true,
+                "style": "SOLID"
+            },
+            {
+                "type": "expression",
+                "id": "12",
+                "color": "#c74440",
+                "latex": "g=9.8",
+                "hidden": true,
+                "style": "SOLID"
+            },
+            {
+                "type": "expression",
+                "id": "13",
+                "color": "#2d70b3",
+                "latex": "v\\left(V\\right)=\\sqrt{2\\left(\\frac{W\\left(V\\right)}{m\\left(V\\right)}-g\\cdot h\\left(V\\right)\\right)}",
+                "hidden": true,
+                "style": "SOLID"
+            },
+            {
+                "type": "expression",
+                "id": "14",
+                "color": "#388c46",
+                "latex": "d\\left(V\\right)=\\frac{v\\left(V\\right)^2\\sin\\left(2t\\right)}{g}",
+                "hidden": true,
+                "style": "SOLID"
+            },
+            {
+                "type": "expression",
+                "id": "17",
+                "color": "#000000",
+                "latex": "t=\\frac{\\pi}{4}",
+                "hidden": true,
+                "style": "SOLID"
+            },
+            {
+                "type": "expression",
+                "id": "16",
+                "color": "#6042a6",
+                "style": "SOLID"
+            }
+        ]
+    }
+}

@@ -1,0 +1,62 @@
+This is BibTeX, Version 0.99d (TeX Live 2021)
+Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
+The top-level auxiliary file: Report.aux
+The style file: ieeetr.bst
+Database file #1: bib.bib
+Warning--entry type for "Transformer" isn't style-file defined
+--line 1 of file bib.bib
+I was expecting a `,' or a `}'---line 14 of file bib.bib
+ :  
+ :  editor = {Deren Yang},
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+Illegal end of database file---line 35 of file bib.bib
+ : 
+ : 
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+Warning--empty publisher in Yang2019
+Warning--empty publisher in Stapleton2011
+Warning--empty year in Stapleton2011
+You've used 4 entries,
+            1876 wiz_defined-function locations,
+            497 strings with 3897 characters,
+and the built_in function-call counts, 595 in all, are:
+= -- 49
+> -- 20
+< -- 0
++ -- 9
+- -- 5
+* -- 30
+:= -- 91
+add.period$ -- 6
+call.type$ -- 4
+change.case$ -- 2
+chr.to.int$ -- 0
+cite$ -- 7
+duplicate$ -- 31
+empty$ -- 77
+format.name$ -- 5
+if$ -- 144
+int.to.chr$ -- 0
+int.to.str$ -- 4
+missing$ -- 6
+newline$ -- 17
+num.names$ -- 4
+pop$ -- 27
+preamble$ -- 1
+purify$ -- 0
+quote$ -- 0
+skip$ -- 8
+stack$ -- 0
+substring$ -- 0
+swap$ -- 3
+text.length$ -- 0
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 0
+warning$ -- 3
+while$ -- 4
+width$ -- 5
+write$ -- 33
+(There were 2 error messages)
