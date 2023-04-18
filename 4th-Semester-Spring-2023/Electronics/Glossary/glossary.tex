@@ -8,6 +8,8 @@
 \begin{document}
 \maketitle
 
+This glossary contains definitions of useful terms in electronics. Please note that all terms are numbered except for the 26 NATO alphabet terms, which should be added to the total number of words.
+
 % ========== A ============
 \IEEEPARstart{A}{lpha}
 \begin{enumerate}
@@ -63,9 +65,10 @@
   \subitem The positive terminal of a BJT.\\
 \item Common Mode Rejection Ratio (CMRR)
   \subitem $CMRR = 20\log_{10} \left(\frac{A_d}{A_{cm}}\right)$ \\
+\item Common Path
+\subitem A shared (common) ground reference. \\ 
 \item Cut-off
-  \subitem The area of a transistor I-V curve where there is no current \\ 
-\\
+  \subitem The area of a transistor I-V curve where there is no current \\
 
 % ========== D ============
 \IEEEPARstart{D}{elta}\\
@@ -82,7 +85,7 @@
 \item Distributed Parameter
   \subitem A component with properties along a length or area rather than localized at a point. Must be used to model a component when the component is not much smaller than one wavelength. \\ 
 \item Drain
-  \subitem The terminal 
+  \subitem The terminal of a MOSFET where current flows out towards the common path. \\
 
 % ========== E ============
 \IEEEPARstart{E}{cho}\\
@@ -99,6 +102,8 @@
 
 % ========== F ============
 \IEEEPARstart{F}{oxtrot}\\
+\item Semiconductor Fabrication Plant (Fab)
+\subitem A high-tech factory where semiconductor devices are manufactured. \\
 \item Farad
   \subitem The base SI unit for capacitance. 
 \item Filter
@@ -114,6 +119,8 @@
 \IEEEPARstart{G}{olf}\\
 \item Gain
   \subitem A logarithmic measure of amplification.\\
+\item Gate-to-source Voltage ($V_{GS}$)
+\subitem The voltage between the gate and the source of a MOSFET, responsible for controlling the switch state. \\ 
 \item General Interconnect
 \subitem A way \\ 
 \item Giga-
@@ -150,6 +157,8 @@
 
 % ========== L ============
 \IEEEPARstart{L}{ima}\\
+\item Length of Channel (L)
+\subitem The lenth of a MOSFET channel; the dimension spanning the source and drain. 
 \item Low pass filter
   \subitem A type of AC filter that eliminates high frequencies.\\
 \item Low side switch
@@ -189,6 +198,12 @@
   \subitem Symbol indicating angular frequency\\
 \item Operational Amplifier (Op-Amp)
   \subitem An active device that enables isolation, comparison, and amplification.\\
+\item Over Voltage ($V_O$)
+\subitem When $V_{GS}-V_t > 0$.
+\item Oxide Capacitance ($C_{OX}$)
+\subitem The capacitance of the oxide layer of a MOSFET. \\
+\item Oxide Thickness ($t_{OX}$)
+\subitem The thickness of the oxide layer of a MOSFET. \\ 
 
 
 % ========== P ============
@@ -214,7 +229,7 @@
 \item Resistor
   \subitem A purely resistive linear device with no transient properties.\\
 \item Rheostat
-  \subitem A type of variable resistor. Like a potentiometer without one of the end pins.\\
+  \subitem A type of variable resistor used to control power. \\
 
 % ========== S ============
 \IEEEPARstart{S}{ierra}\\
@@ -233,12 +248,14 @@
 
 % ========== T ============
 \IEEEPARstart{T}{ango}\\
+\item Thermal Model Electronics
+\subitem A way to model the thermal behavior of electronic devices using circuit schematic symbols.\\
+\item Threshold Voltage ($V_t$)
+\subitem The minimum $V_{GS}$ required to turn a MOSFET on. 
+\item Transformer
+\subitem An inducting device that can step up or step down AC voltage while having little power loss. \\
 \item Transistor
   \subitem A three terminal, active, semiconducing device that acts as an electronic switch.\\
-\item Thermal Model Electronics
-  \subitem A way to model the thermal behavior of electronic devices using circuit schematic symbols.\\
-\item Transformer
-  \subitem An inducting device that can step up or step down AC voltage while having little power loss. \\
 \item Triaxial Cable
   \subitem A cable with three concentric conductors used to minimize EMI. \\ 
 \item Triode
@@ -260,6 +277,8 @@
 
 % ========== W ============
 \IEEEPARstart{W}{hiskey}\\
+\item Width of Channel (W)
+  \subitem The width of a MOSFET channel.  
 \\
 
 % ========== X ============

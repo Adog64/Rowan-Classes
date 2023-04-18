@@ -1,0 +1,10 @@
+/***************************************************************
+* Name: Aidan Sharpe
+* Course: Computer Science & Programming
+* Class: CS04103 Section: 6
+* Assignment Date: <date>
+* File Name: <filename>.cpp
+*****************************************************************
+* ID: Lab 0 Problem 1
+* Purpose: <purpose>
+*****************************************************************/
