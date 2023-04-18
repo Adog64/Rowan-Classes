@@ -1,0 +1,6 @@
+3 College Comp 1: 24263
+4 Intro Elec/Mag: 23882
+0 Lab Electr/Mag: 23893
+2 Intro Dig Syst: 22994
+4 Math Engr Anal: 21996
+2 Hon FEC II:     20257
